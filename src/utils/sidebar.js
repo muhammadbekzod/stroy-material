@@ -9,8 +9,7 @@ import { ReactComponent as katalog } from '../assets/icons/settings.svg';
 
 import Generic from '../pages/Generic';
 
-
-import Buyurtmalar from '../pages/Buyurtmalar';
+import Kundalik from '../components/Buyurtmalar/Kundalik';
 
 export const sidebar = [
   {
@@ -18,7 +17,7 @@ export const sidebar = [
     title:'Kundalik Hisobot',
     path: '/kundalik',
     Icon: buyurtmalar,
-    Component: Buyurtmalar,
+    Component: Kundalik,
     hidden: false,
   },
   {

@@ -7,7 +7,7 @@ export const Container = styled.div`
   min-width: 300px;
   height: 100vh;
   padding-top: 30px;
-  background: white;
+  background: #013220;
   position: sticky;
   top: 0;
 `;
@@ -40,14 +40,14 @@ Wrapper.Title = styled.div`
   font-family: SFProDisplay bold;
   font-size: 16px;
   line-height: 19px;
-  color: #2d3a45;
+  color: silver;
 `;
 
 Wrapper.Desc = styled.div`
   font-family: SFProDisplay;
   font-size: 12px;
   line-height: 14px;
-  color: #2d3a45;
+  color: silver;
   mix-blend-mode: normal;
   opacity: 0.5;
 `;
@@ -62,7 +62,7 @@ export const Link = styled(NavLink)`
   line-height: 18px;
   width: 100%;
   padding: 10px 40px;
-  color: #2d3a45;
+  color: silver;
   margin-bottom: 10px;
   border-radius: 0px 6px 6px 0px;
   transition: all 0.3s;
@@ -91,7 +91,7 @@ export const Logout = styled.div`
   padding-left: 40px;
   font-size: 16px;
   line-height: 19px;
-  color: #2d3a45;
+  color: silver;
   cursor: pointer;
   margin-bottom: 50px;
 `;
