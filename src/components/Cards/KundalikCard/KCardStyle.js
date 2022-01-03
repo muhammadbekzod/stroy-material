@@ -52,10 +52,14 @@ margin-bottom: 3vh;
 `
 
 export const Graph = styled.img`
+width: 22vw;
+
 `
 export const Daily = styled.img`
+width: 22vw;
 `
 Container.Right = styled.div`
 display: flex;
 flex-direction: column;
+margin-left:0.5vw;
 `

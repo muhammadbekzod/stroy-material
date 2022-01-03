@@ -1,5 +1,5 @@
 body {
-  background-color: #9fe4f0;
+  box-sizing: border-box;
   color: black;
 }
 
@@ -13,13 +13,4 @@ body {
   font-weight: normal;
 }
 
-@font-face {
-  font-family: SFProDisplay;
-  src: url('./utils/cssFonts/SFPRODISPLAYREGULAR.OTF') format('opentype');
-}
 
-@font-face {
-  font-family: SFProDisplay bold;
-  font-weight: bold;
-  src: url('./utils/cssFonts/SFPRODISPLAYBOLD.OTF') format('opentype');
-}
