@@ -13,7 +13,6 @@ flex-direction: column;
 `
 Wrapper.Nav = styled.div`
 display: flex;
-display: flex;
 align-items: center;
 height: 10vh;
 width: 82vw;
@@ -21,24 +20,25 @@ padding-left: 2vw;
 justify-content: space-between;
 `
 
-export const Search = styled.div`
+export const Search = styled.input`
 cursor: text;
 border: 1px solid lightgray;
 box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
 border-radius: 4px;
 height: 6vh;
-width: 60vw;
+width: 40vw;
 `
 
 Wrapper.NavRight = styled.div`
 display: flex;
-height: 6vh;
-width: 12vw;
+height: 60px;
+width: 220px;
 justify-content: space-between;
 align-items: center;
 `
 
 export const News = styled.div`
+cursor: pointer;
 border: 1px solid lightgray;
 background: #F7685B;
 box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
@@ -46,11 +46,14 @@ border-radius: 4px;
 display: flex;
 justify-content: center;
 align-items: center;
-height: 6vh;
-width: 6vw;
+height: 60px;
+width: 120px;
 :hover{
-  background: #2ED47A;
-  border-radius: 15px;
+    background: #3e8e41;
+}
+:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
 }
 
 `
@@ -72,20 +75,21 @@ font-size: 14px;
 
 export const AddDailyInfo = styled.div`
 cursor: pointer;
-height: 6vh;
-width: 12vw;
+height: 60px;
+width: 220px;
 border: 1px solid lightgray;
 border-radius: 4px;
 font-size: 18px;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-left: 2vw;
-margin-top: 4vh;
 background: #F7685B;
 box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
 :hover{
-  background: #2ED47A;
-  border-radius: 15px;
+    background: #3e8e41;
+}
+:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
 }
 `

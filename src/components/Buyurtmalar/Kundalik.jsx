@@ -9,7 +9,8 @@ export const Kundalik = () => {
     <Container>
         <Wrapper>
           <Wrapper.Nav>
-            <Search className="placeholder: 'Qidiruv'">Qidiruv</Search>
+            <Search className="placeholder: 'Qidiruv'"/>
+            <AddDailyInfo>Hisobot Qo'shish</AddDailyInfo>
             <Wrapper.NavRight>
               <News>Yangiliklar</News>
               <LoginContainer>
@@ -18,7 +19,7 @@ export const Kundalik = () => {
               </LoginContainer>
             </Wrapper.NavRight>
           </Wrapper.Nav>
-          <AddDailyInfo>Hisobot Qo'shish</AddDailyInfo>
+   
           <KCard />
         </Wrapper>
     </Container>

@@ -6,10 +6,9 @@ import { ReactComponent as mijozlar } from '../assets/icons/mijozlar.svg';
 import { ReactComponent as hisobot } from '../assets/icons/hisobot.svg';
 import { ReactComponent as hodimlar } from '../assets/icons/settings.svg';
 import { ReactComponent as katalog } from '../assets/icons/settings.svg';
-
 import Generic from '../pages/Generic';
-
 import Kundalik from '../components/Buyurtmalar/Kundalik';
+import Nasiyalar from '../components/Nasiyalar/Nasiyalar';
 
 export const sidebar = [
   {
@@ -25,7 +24,7 @@ export const sidebar = [
     title: 'Nasiyalar',
     path: '/nasiyalar',
     Icon: mahsulotlar,
-    Component: Generic,
+    Component: Nasiyalar,
     hidden: false,
   },
   {

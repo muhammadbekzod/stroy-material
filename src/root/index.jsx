@@ -5,7 +5,7 @@ import {
   Route,
   Redirect,
 } from 'react-router-dom';
-import { Body, Container } from './style';
+import {Container } from './style';
 import Sidebar from '../components/Sidebar';
 import { sidebar } from '../utils/sidebar';
 import Notfound from '../components/Notfound';
