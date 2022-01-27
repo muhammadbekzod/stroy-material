@@ -66,6 +66,13 @@ export const Link = styled(NavLink)`
   margin-bottom: 10px;
   border-radius: 0px 6px 6px 0px;
   transition: all 0.3s;
+  text-decoration: none;
+  
+width: ${({form})=>(form ?'0' :'')};
+:hover{
+  border: none;
+  text-decoration: none;
+}
 `;
 
 export const IconWrapper = styled.div`

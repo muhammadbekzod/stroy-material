@@ -10,9 +10,11 @@ export const Kundalik = () => {
         <Wrapper>
           <Wrapper.Nav>
             <Search className="placeholder: 'Qidiruv'"/>
-            <AddDailyInfo>Hisobot Qo'shish</AddDailyInfo>
+            <AddDailyInfo to='/kundalikform'>Hisobot Qo'shish</AddDailyInfo>
             <Wrapper.NavRight>
-              <News>Yangiliklar</News>
+                <a href="https://t.me/+e9_6nlmX-fg3NmRl">
+                <News href="https://t.me/+e9_6nlmX-fg3NmRl">Yangiliklar</News>
+                </a>
               <LoginContainer>
               <Login>Yusufbek</Login>
               <Position>manager</Position>

@@ -38,6 +38,13 @@ p{
     box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
     border-radius: 4px;
     padding: 0 1vw;
+:hover{
+    background: #3e8e41;
+}
+:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
+}
 }
 `
 

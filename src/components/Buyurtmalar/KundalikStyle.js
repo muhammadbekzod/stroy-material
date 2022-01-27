@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
 
@@ -73,7 +74,7 @@ export const Position = styled.div`
 font-size: 14px;
 `
 
-export const AddDailyInfo = styled.div`
+export const AddDailyInfo = styled(NavLink)`
 cursor: pointer;
 height: 60px;
 width: 220px;

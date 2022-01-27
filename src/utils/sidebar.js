@@ -8,7 +8,10 @@ import { ReactComponent as hodimlar } from '../assets/icons/settings.svg';
 import { ReactComponent as katalog } from '../assets/icons/settings.svg';
 import Generic from '../pages/Generic';
 import Kundalik from '../components/Buyurtmalar/Kundalik';
-import Nasiyalar from '../components/Nasiyalar/Nasiyalar';
+import NasiyaBulimi from '../components/Nasiyalar/NasiyaBulimi';
+import FirmaHisoboti from '../components/FirmaHisoboti/FirmaHisoboti';
+
+;
 
 export const sidebar = [
   {
@@ -22,17 +25,17 @@ export const sidebar = [
   {
     id: 2,
     title: 'Nasiyalar',
-    path: '/nasiyalar',
+    path: '/nasiyalarbulimi',
     Icon: mahsulotlar,
-    Component: Nasiyalar,
+    Component: NasiyaBulimi,
     hidden: false,
   },
   {
     id: 3,
     title: 'Firmalar Hisoboti',
-    path: '/kategoriya',
+    path: '/firmahisoboti',
     Icon: kategoriya,
-    Component: Generic,
+    Component: FirmaHisoboti,
     hidden: false,
   },
   {
