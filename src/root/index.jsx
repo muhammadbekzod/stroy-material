@@ -11,6 +11,8 @@ import { sidebar } from '../utils/sidebar';
 import Notfound from '../components/Notfound';
 import KundalikHForm from '../components/Form/KundalikHisobotForm/KundalikHForm';
 import Generic from '../pages/Generic';
+import NasiyaForm from '../components/Form/NasiyalarForm/NasiyaForm';
+import FirmaHForm from '../components/Form/FirmaHisobotForm/FirmaHForm';
 
 
 export const Root = () => {
@@ -27,12 +29,13 @@ export const Root = () => {
           {sidebar.map(({ id, path, Component }) => (
             <Route  key={id} path={path} component={Component} />
           ))}
-          <Route exact path='/'>
+          <Route exact  path='/'>
             <Redirect  to='/kundalik' />
           </Route>
           <Route path='/kundalikform' component={KundalikHForm} />
-          <Route path='/nasiyaform' component={Generic}/>
-          <Route path='/hisobotform' component={Generic}/>
+          <Route path='/nasiyaform' component={NasiyaForm}/>
+          <Route path='/hisobotform' component={FirmaHForm}/>
+          <Route path='/yangifirma' component={Generic}/>
           <Route path='*' component={Notfound} />
         </Switch>
       </Container>

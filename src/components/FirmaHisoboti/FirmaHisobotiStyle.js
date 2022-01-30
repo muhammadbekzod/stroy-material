@@ -77,6 +77,7 @@ margin-left: 15px;
 
 export const AddDailyInfo = styled(NavLink)`
 cursor: pointer;
+text-decoration: none;
 height: 60px;
 width: 220px;
 border: 1px solid lightgray;
@@ -87,6 +88,8 @@ justify-content: center;
 align-items: center;
 background: #F7685B;
 box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+background-color: ${({extra})=> (extra) ? "orange" : 'none'};
+margin-left: ${({extra})=> (extra) ? "30px" : 'none'};
 :hover{
     background: #3e8e41;
 }
@@ -94,4 +97,9 @@ box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
   background-color: #3e8e41;
   transform: translateY(4px);
 }
+`
+
+export const ExtraWrapper = styled.div`
+display: flex;
+text-decoration: none;
 `

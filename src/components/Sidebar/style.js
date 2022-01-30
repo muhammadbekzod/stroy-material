@@ -20,7 +20,7 @@ export const Header = styled.div`
   margin-bottom: 50px;
 `;
 
-Header.Logo = styled.div`
+Header.Logo = styled.img`
   border:1px solid black;
   width: 70px;
   height: 70px;

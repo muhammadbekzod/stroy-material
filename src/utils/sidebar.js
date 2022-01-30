@@ -5,11 +5,11 @@ import { ReactComponent as filial } from '../assets/icons/filial.svg';
 import { ReactComponent as mijozlar } from '../assets/icons/mijozlar.svg';
 import { ReactComponent as hisobot } from '../assets/icons/hisobot.svg';
 import { ReactComponent as hodimlar } from '../assets/icons/settings.svg';
-import { ReactComponent as katalog } from '../assets/icons/settings.svg';
 import Generic from '../pages/Generic';
 import Kundalik from '../components/Buyurtmalar/Kundalik';
 import NasiyaBulimi from '../components/Nasiyalar/NasiyaBulimi';
 import FirmaHisoboti from '../components/FirmaHisoboti/FirmaHisoboti';
+import HodimlarBulimi from '../components/HodimlarBulimi/HodimlarBulimi';
 
 ;
 
@@ -46,14 +46,7 @@ export const sidebar = [
     Component: Generic,
     hidden: false,
   },
-  {
-    id: 5,
-    title: 'Naqt Pul',
-    path: '/mijozlar',
-    Icon: mijozlar,
-    Component: Generic,
-    hidden: false,
-  },
+
   {
     id: 6,
     title: 'Seyf Hisoboti',
@@ -63,18 +56,26 @@ export const sidebar = [
     hidden: false,
   },
   {
-    id: 7,
-    title: 'Aylanma Chiqimlar',
-    path: '/aylanma_chiqimlar',
+    id: 8,
+    title: 'Firma Holati',
+    path: '/firma_holati',
     Icon: hodimlar,
     Component: Generic,
     hidden: false,
   },
   {
-    id: 8,
+    id: 9,
     title: `Hodimlar Bo'limi`,
     path: '/hodimlar',
-    Icon: katalog,
+    Icon: mijozlar,
+    Component: HodimlarBulimi,
+    hidden: false,
+  },
+  {
+    id: 10,
+    title: `Ustalar Bo'limi`,
+    path: '/ustalar',
+    Icon: mijozlar,
     Component: Generic,
     hidden: false,
   },

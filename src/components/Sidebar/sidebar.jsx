@@ -11,6 +11,8 @@ import { ReactComponent as Chiqish } from '../../assets/icons/logout.svg';
 import { sidebar } from '../../utils/sidebar';
 import { useLocation, useNavigate } from 'react-router-dom';
 
+
+
 export const Sidebar = () => {
   const [active, setActive] = useState('/');
   const navigate = useNavigate()
@@ -21,7 +23,7 @@ export const Sidebar = () => {
   return (
     <Container>
       <Header>
-        <Header.Logo onClick={()=>navigate('/kundalik')}/>
+        <Header.Logo onClick={()=>navigate('/kundalik')} />
         <Wrapper>
           <Wrapper.Title>Stroy Material</Wrapper.Title>
           <Wrapper.Desc>Firma Hisoboti</Wrapper.Desc>

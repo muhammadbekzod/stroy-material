@@ -1,7 +1,7 @@
 import React from 'react';
 import {Login, LoginContainer, News, Position } from '../Buyurtmalar/KundalikStyle';
 import FirmaHCard from '../Cards/FirmaHisobotiCard/FirmaHCard';
-import { AddDailyInfo, Container, ContainerMain, Wrapper } from './FirmaHisobotiStyle';
+import { AddDailyInfo, Container, ContainerMain, ExtraWrapper, Wrapper } from './FirmaHisobotiStyle';
 
 const FirmaHisoboti = () => {
   return(
@@ -10,7 +10,10 @@ const FirmaHisoboti = () => {
             
               <Wrapper.Header>
               <h1>Firmalar Hisoboti!</h1>
+              <ExtraWrapper>
               <AddDailyInfo to="/hisobotform">Hisobot Qo'shish</AddDailyInfo>
+       
+              </ExtraWrapper>
               <Wrapper.NavRight>
               <a href="https://t.me/+e9_6nlmX-fg3NmRl">
               <News >Yangiliklar</News>
