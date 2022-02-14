@@ -12,11 +12,10 @@ const FirmaHisoboti = () => {
               <h1>Firmalar Hisoboti!</h1>
               <ExtraWrapper>
               <AddDailyInfo to="/hisobotform">Hisobot Qo'shish</AddDailyInfo>
-       
               </ExtraWrapper>
               <Wrapper.NavRight>
-              <a href="https://t.me/+e9_6nlmX-fg3NmRl">
-              <News >Yangiliklar</News>
+              <a href="https://t.me/+cg_Ri3G0whpmOTIy">
+              <News >Telegram</News>
               </a>
               <LoginContainer>
               <Login>Yusufbek</Login>

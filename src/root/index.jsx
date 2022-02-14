@@ -29,13 +29,17 @@ export const Root = () => {
           {sidebar.map(({ id, path, Component }) => (
             <Route  key={id} path={path} component={Component} />
           ))}
-          <Route exact  path='/'>
+          <Route exact path='/'>
             <Redirect  to='/kundalik' />
           </Route>
           <Route path='/kundalikform' component={KundalikHForm} />
           <Route path='/nasiyaform' component={NasiyaForm}/>
           <Route path='/hisobotform' component={FirmaHForm}/>
-          <Route path='/yangifirma' component={Generic}/>
+        
+          <Route path="/firmalarhisoboti/:id" component={Generic}/>
+          {/* {sidebar.map(({ id, path, Component }) => (
+            <Route  key={id} path={path} component={Component} />
+          ))} */}
           <Route path='*' component={Notfound} />
         </Switch>
       </Container>

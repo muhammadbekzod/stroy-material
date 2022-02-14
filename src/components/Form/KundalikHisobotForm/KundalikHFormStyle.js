@@ -46,6 +46,7 @@ padding-right: 30px;
 
 export const WrapperCon = styled.div`
 display: flex;
+/* margin-top: 10px; */
 `
 
 export const WrapperConMini = styled.div`

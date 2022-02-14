@@ -16,7 +16,7 @@ const KundalikHForm = () => {
     <label htmlFor="exampleInputEmail1">Aylanma chiqimlar</label>
     <WrapperCon >
     <Extracon role="form" autocomplete="off">
-    <select class="form-control" id="exampleFormControlSelect1" value="">
+    <select className="form-control" id="exampleFormControlSelect1" value="">
     <option >Choose...</option>
       <option>EPA</option>
       <option>DUSEL</option>
@@ -38,7 +38,7 @@ const KundalikHForm = () => {
   <Wrapper className="form-group">
     <label htmlFor="exampleInputEmail1">Chiqimlar</label>
     <WrapperCon>
-    <select class="form-control" id="exampleFormControlSelect1" value="">
+    <select className="form-control" id="exampleFormControlSelect1" value="">
     <option>Choose...</option>
       <option>Tushlik</option>
       <option>Non</option>
@@ -54,40 +54,54 @@ const KundalikHForm = () => {
     </WrapperCon>
     <AddWrap  id="add-more" name="add-more">+</AddWrap>
   </Wrapper>
-  <Wrapper className="form-group">
-   
-    <label htmlFor="exampleInputEmail1">Umumiy nasiyalar</label>
- 
-    <input type="number" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="" />
-    </Wrapper>
 <Wrapper className="form-group">
 <WrapperCon>
     <WrapperConMini>
-    <label htmlFor="exampleInputEmail1">Naxt pul savdo</label>
-    <input type="number" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="naxt pul savdo" />
-    </WrapperConMini>
-    <WrapperConMini>
-    <label htmlFor="exampleInputEmail1">Plastik savdo</label>
-    <input type="number" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="plastik savdo" />
-    </WrapperConMini>
-</WrapperCon>
-  </Wrapper>
-  <Wrapper className="form-group">
+    <label htmlFor="exampleInputEmail1">Umumiy nasiyalar</label>
 
+    <input type="number" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="summani kiriting" />
+    </WrapperConMini>   
+    <WrapperConMini>
+    <label htmlFor="exampleInputEmail1">Naxt pul savdo</label>
+    <input type="number" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="summani kiriting" />
+    </WrapperConMini>
+   
+</WrapperCon>
   </Wrapper>
   <Wrapper className="form-group">
   <WrapperCon>
-    <WrapperConMini>
-    <label htmlFor="exampleInputEmail1">Qaytgan nasiya</label>
-    <input type="number" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="qaytgan nasiya" />
+  <WrapperConMini>
+    <label htmlFor="exampleInputEmail1">Plastik savdo</label>
+    <input type="number" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="summani kiriting" />
     </WrapperConMini>
     <WrapperConMini>
-    <label htmlFor="exampleInputEmail1">Jami savdo</label>
-    <input type="number" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="jami savdo" />
-</WrapperConMini> 
+    <label htmlFor="exampleInputEmail1">Qaytgan nasiya</label>
+    <input type="number" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="summani kiriting" />
+    </WrapperConMini>
+
 
 </WrapperCon>
+  <WrapperCon>
+  <WrapperConMini>
+    <label htmlFor="exampleInputEmail1">Click savdo</label>
+    <input type="number" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="summani kiriting" />
+</WrapperConMini> 
+<WrapperConMini>
+    <label htmlFor="exampleInputEmail1">Jami savdo</label>
+    <input type="number" className="form-control"  placeholder="summani kiriting" />
+</WrapperConMini>
+</WrapperCon>
  </Wrapper>
+ <WrapperCon>
+<WrapperConMini >
+    <label >1Cdagi mahsulot aylanmasi</label>
+    <input type="number" className="form-control"  placeholder="summani kiriting" />
+</WrapperConMini>
+<WrapperConMini >
+    <label >1Cdagi foyda</label>
+    <input type="number" className="form-control"  placeholder="summani kiriting" />
+</WrapperConMini>
+</WrapperCon>
  <Wrapper className="form-group">
  <WrapperCon>
     <WrapperConMini>
@@ -101,12 +115,14 @@ const KundalikHForm = () => {
       <option>Yusufbek</option>
     </select>
     </WrapperConMini>
+
   <WrapperConMini extra>
     <label htmlFor="exampleInputEmail1">Menejerga o'tdi</label>
     <input type="number" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="qabul qilingan summa" />
 </WrapperConMini>
 
 </WrapperCon>
+
 <Extracon extrawrap>
 <div className="custom-file">
 <label htmlFor="exampleInputEmail1">Bugungi Savdo varaqasi</label>

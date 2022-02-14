@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
 const FirmaHCard = () => {
@@ -19,9 +20,9 @@ const FirmaHCard = () => {
          </Wrapper.Title>
         </Wrapper>
         <Wrapper>
-         <Wrapper.Title>
+         <Link to="/firmalarhisoboti/:id">
              Dusel Abror Aka
-         </Wrapper.Title>
+         </Link>
          <Wrapper.Title sum>
              2.500.000
          </Wrapper.Title>
@@ -92,6 +93,9 @@ border-right: 2px solid gray;
 width: 230px;
 width: ${({sum})=> (sum) ? "250px" : 'none'};
 border-right: ${({br})=> (br) ? "none" : '2px solid gray;'};
+`
+
+export const Link = styled(NavLink)`
 `
 
 export default FirmaHCard;

@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 export const Container = styled.div`
+color: white;
   display: flex;
   flex-direction: column;
   width: 300px;
   min-width: 300px;
   height: 100vh;
   padding-top: 30px;
-  background: #013220;
+  background: #0c0766;
   position: sticky;
   top: 0;
 `;
@@ -87,7 +88,7 @@ export const IconWrapper = styled.div`
 `;
 
 export const activeStyle = {
-  background: '#FCB600',
+  background: '#ff8001',
   color: 'white',
 };
 

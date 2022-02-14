@@ -86,7 +86,7 @@ font-size: 18px;
 display: flex;
 justify-content: center;
 align-items: center;
-background: #F7685B;
+background: #ff8001;
 box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
 background-color: ${({extra})=> (extra) ? "orange" : 'none'};
 margin-left: ${({extra})=> (extra) ? "30px" : 'none'};

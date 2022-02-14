@@ -41,7 +41,7 @@ align-items: center;
 export const News = styled.div`
 cursor: pointer;
 border: 1px solid lightgray;
-background: #F7685B;
+background: #ff8001;
 box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
 border-radius: 4px;
 display: flex;
@@ -84,7 +84,7 @@ font-size: 18px;
 display: flex;
 justify-content: center;
 align-items: center;
-background: #F7685B;
+background: #ff8001;
 box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
 :hover{
     background: #3e8e41;

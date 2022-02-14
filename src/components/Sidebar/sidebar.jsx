@@ -25,7 +25,7 @@ export const Sidebar = () => {
       <Header>
         <Header.Logo onClick={()=>navigate('/kundalik')} />
         <Wrapper>
-          <Wrapper.Title>Stroy Material</Wrapper.Title>
+          <Wrapper.Title>Stroy City</Wrapper.Title>
           <Wrapper.Desc>Firma Hisoboti</Wrapper.Desc>
         </Wrapper>
       </Header>
